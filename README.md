@@ -34,14 +34,14 @@ Running a node:
 ```
 $ ruby vesta.rb '[your_ip]' [your_port]
 # eg.
-$ ruby vesta.rb 'http://localhost' 1000
+$ ruby vesta.rb 'http://localhost' 2000
 # and you're ready to open this (http://localhost:1000) page on browser.  
 ``` 
 Connecting to a node:
 ```
 $ ruby vesta.rb '[your_ip]' [your_port] '[peer_ip]' [peer_port]
 # eg.
-$ ruby vesta.rb 'http://localhost' 1000 'http://localhost' 2000
+$ ruby vesta.rb 'http://localhost' 3000 'http://localhost' 2000
 # and you're ready to open this (http://localhost:1000) page on browser.  
 ```
 
